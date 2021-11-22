@@ -30,3 +30,8 @@ console.log(colors)
 
 colors.splice(5, 0, 'forest green', 'dark green')
 console.log(colors)
+
+//sort - default
+
+colors.sort()
+console.log(colors)

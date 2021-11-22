@@ -11,3 +11,8 @@ console.log(colors)
 console.log(colors.slice(0,3))
 
 console.log(colors.slice(-1))
+
+//splice
+//add to beginning, don't delete anything
+colors.splice(0, 0, 'fire red')
+console.log(colors)

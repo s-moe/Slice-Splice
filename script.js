@@ -16,3 +16,8 @@ console.log(colors.slice(-1))
 //add to beginning, don't delete anything
 colors.splice(0, 0, 'fire red')
 console.log(colors)
+
+//delete first item
+colors.splice(0, 1)
+
+console.log(colors)

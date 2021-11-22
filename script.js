@@ -21,3 +21,6 @@ console.log(colors)
 colors.splice(0, 1)
 
 console.log(colors)
+
+colors.splice(0, 1, 'brick red')
+console.log(colors)
